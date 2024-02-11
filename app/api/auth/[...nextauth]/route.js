@@ -10,7 +10,7 @@ const handler = NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     })
   ],
-  callbacks: {
+  callback: {
     async session({ session }) {
       // store the user id from MongoDB to session
       const sessionUser = await User.findOne({
