@@ -6,8 +6,8 @@ import User from "@/models/user";
 const handler = NextAuth({
   providers: [
     GoogleProvider({
-      clienId: process.env.GOOGLE_ID,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET
+      clientId: process.env.GOOGLE_ID,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     })
   ],
   async session({ session }) {
