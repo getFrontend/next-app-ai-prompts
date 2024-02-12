@@ -35,7 +35,7 @@ const Form = ({
         <label>
           <span className='font-satoshi font-semibold text-base text-gray-700'>
             Quick Search Tags:
-            <span className='font-normal'> for example #web #crypto #frontend, etc.
+            <span className='font-normal'> for example, #web #crypto #javaScript #frontend, etc.
               (separate multiple tags with a space between them)
             </span>
           </span>
@@ -44,7 +44,7 @@ const Form = ({
             className="form_input"
             value={post.tag}
             onChange={(e) => setPost({ ...post, tag: e.target.value })}
-            placeholder="#Tag"
+            placeholder="Tag"
             required
           />
         </label>
