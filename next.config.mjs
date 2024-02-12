@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ["mongoose"],
+    missingSuspenseWithCSRBailout: false
   },
   images: {
     remotePatterns: [
