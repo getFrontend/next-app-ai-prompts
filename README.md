@@ -4,13 +4,13 @@ The project was implemented in order to learn the **Next JS** framework, underst
 
 This is based on the **JavaScript Mastery** tutorial video, which used Next 13. I had to update the project to the latest Next 14.1 version myself.
 
-The implementation on the Next framework made it possible to make a modern and very fast site. PageSpeed Insights results:
-
-<img src="https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/pagespeed_mobile.png?raw=true" width="49%"/> <img src="https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/pagespeed_desktop.png?raw=true" width="49%"/>
+The implementation on the Next framework made it possible to make a modern and very fast [site](https://top-aiprompts.vercel.app/). PageSpeed Insights results:
 
 ✅ Mobile: 98 / 100 / 100 / 100
 
 ✅ Desktop: 93 / 100 / 100 / 100
+
+<img src="https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/pagespeed_mobile.png?raw=true" width="49%"/> <img src="https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/pagespeed_desktop.png?raw=true" width="49%"/>
 
 ## 🔋 Features
 
@@ -24,6 +24,8 @@ A modern and visually appealing design, incorporating the glassmorphism trend st
 
 Allow users to discover AI prompts shared by the community and create their own prompts to share with the world.
 
+![](https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/aiprompts_preview-2.png?raw=true)
+
 ✅ **Edit and Delete Created Prompts:**
 
 Users have the ability to edit their created prompts at any time and delete them when needed.
@@ -32,9 +34,13 @@ Users have the ability to edit their created prompts at any time and delete them
 
 Each user gets a dedicated profile page showcasing all the prompts they've created, providing an overview of their contributions.
 
+![](https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/aiprompts_preview-3.png?raw=true)
+
 ✅ **View Other People's Profiles:**
 
 Users can explore the profiles of other creators to view the prompts they've shared, fostering a sense of community.
+
+![](https://github.com/getFrontend/next-app-ai-prompts/blob/main/public/aiprompts_preview-4.png?raw=true)
 
 ✅ **Copy prompt to Clipboard:**
 
