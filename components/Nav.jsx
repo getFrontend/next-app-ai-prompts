@@ -57,7 +57,7 @@ const Nav = () => {
             {providers &&
               Object.values(providers).map((provider) => (
                 <button
-                  className="black_btn"
+                  className="outline_btn"
                   type="button"
                   key={provider.name}
                   onClick={() => {
