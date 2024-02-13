@@ -20,14 +20,15 @@ const Nav = () => {
   return (
     <nav className="w-full flex-between mb-16 py-4">
       <Link href="/" className="flex flex-center gap-2 ">
+        <p className="logo_text">TOP</p>
         <Image
           className="object-contain"
-          src="/assets/images/logo.svg"
+          src="/assets/images/logo.png"
           alt="logo"
-          width={30}
-          height={30}
+          width={32}
+          height={32}
         />
-        <p className="logo_text">AI PROMTS</p>
+        <p className="logo_text">PROMPTS</p>
       </Link>
 
       {/* Desktop Navigation */}
@@ -118,7 +119,7 @@ const Nav = () => {
             {providers &&
               Object.values(providers).map((provider) => (
                 <button
-                  className="black_btn"
+                  className="outline_btn"
                   type="button"
                   key={provider.name}
                   onClick={() => {
