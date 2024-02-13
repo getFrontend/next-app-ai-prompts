@@ -65,6 +65,7 @@ const Feed = () => {
         />
       </form>
 
+      <h2 className="sr-only">All promtps</h2>
       {/* Show All prompts */}
       {searchText ? (
         <PromptCardList
